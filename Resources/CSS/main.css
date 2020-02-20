@@ -1,0 +1,174 @@
+html{
+
+    margin: -0.5rem 0rem 0rem -0.5rem;
+
+}
+
+@font-face{
+
+    font-family: "Mi fuente";
+    src: url(../Fuente/Roboto-Bold.ttf);
+
+}
+
+@font-face{
+
+    font-family: "Mi segunda fuente";
+    src: url(../Fuente/Roboto-Light.ttf);
+
+}
+
+@font-face{
+
+    font-family: "Mi tercer fuente";
+    src: url(../Fuente/Roboto-Medium.ttf);
+
+}
+
+
+h1{
+
+    font-family: "Mi fuente";
+    font-size: 3.5rem;
+    line-height: 2.1rem;
+    color: #2F4251;
+
+}
+
+h3{
+
+    font-family: "Mi segunda fuente";
+    font-size: 0.9rem;
+    color: #BBC7D6;
+
+}
+
+.o-container-Main{
+
+    width: 120rem;
+    height: 60rem;
+    background-color: #F6FAFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-TitleCal{
+
+    width: 22rem;
+    height: 40rem;
+    background-color: blue;
+
+}
+
+.o-container-ButtonResult{
+
+    width: 11rem;
+    height: 3.6rem;
+    background-color: #F70025;
+    margin: 0rem 2rem 0rem 3rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-container-Results{
+
+    width: 22rem;
+    height: 13rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem rgba(100, 168, 221, 0.23);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 0rem 0rem 2.5rem
+
+}
+
+.o-TitleUAO{
+
+    font-family: "Mi segunda fuente";
+
+}
+
+.o-container-textCal{
+
+    width: 22rem;
+    height: 9rem;
+    background-color: salmon;
+
+}
+
+.o-button-start{
+
+    font-size: 3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #F70025;
+    outline: none;
+
+}
+
+.o-container-textResult{
+
+    width: 7rem;
+    height: 1rem;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+
+}
+
+.o-container-textValor{
+
+    width: 12rem;
+    height: 5rem;
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+
+}
+
+.o-Number{
+
+    font-size: 5rem;
+
+}
+
+.o-container-LoginData{
+
+    width: 22rem;
+    height: 18rem;
+    background-color: violet;
+    margin: 0.5rem 0rem 0rem 0rem;
+
+}
+
+.o-container-type{
+
+    width: 21.5rem;
+    height: 4rem;
+    margin: 0.5rem 0rem 2rem 0rem;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 0.1rem solid #52729E;
+    background-color: transparent;
+    font-size: 3.5rem;
+    font-family: "Mi tercer fuente";
+    outline: none;
+    color: #2F4251;
+}
+
+.o-style-Number{
+
+    font-family: "Mi segunda fuente";
+    font-size: 1rem;
+    color: #BBC7D6;
+
+}
