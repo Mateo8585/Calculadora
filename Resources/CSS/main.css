@@ -38,7 +38,7 @@ h1{
 h3{
 
     font-family: "Mi segunda fuente";
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #BBC7D6;
 
 }
@@ -58,7 +58,6 @@ h3{
 
     width: 22rem;
     height: 40rem;
-    background-color: blue;
 
 }
 
@@ -100,18 +99,19 @@ h3{
 
     width: 22rem;
     height: 9rem;
-    background-color: salmon;
 
 }
 
 .o-button-start{
 
     font-size: 3rem;
+    width: 11rem;
     color: white;
     border: none;
     cursor: pointer;
     background-color: #F70025;
     outline: none;
+    border-radius: 2rem;
 
 }
 
@@ -119,7 +119,6 @@ h3{
 
     width: 7rem;
     height: 1rem;
-    background-color: teal;
     display: flex;
     align-items: center;
 
@@ -129,7 +128,6 @@ h3{
 
     width: 12rem;
     height: 5rem;
-    background-color: thistle;
     display: flex;
     align-items: center;
 
@@ -144,8 +142,7 @@ h3{
 .o-container-LoginData{
 
     width: 22rem;
-    height: 18rem;
-    background-color: violet;
+    height: 14rem;
     margin: 0.5rem 0rem 0rem 0rem;
 
 }
@@ -170,5 +167,62 @@ h3{
     font-family: "Mi segunda fuente";
     font-size: 1rem;
     color: #BBC7D6;
+
+}
+
+.o-container-MethodOperation{
+
+    width: 22rem;
+    height: 5.5rem;
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.o-container-TextOperation{
+
+    width: 5rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center
+
+}
+
+.o-container-MenuOperation{
+
+    width: 22rem;
+    height: 3.5rem;
+
+}
+
+.o-selectOperation{
+
+    background-color: #2F4251;
+    width: 22rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 2rem;
+    color: white;
+    font-family: "Mi segunda fuente";
+
+    /*Permite quitar la flecha de la lista*/
+    -webkit-appearance: none;
+
+    background-image: url(../Imágenes/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 19rem 1.2rem;
+    background-size: 1.5rem;
+
+}
+
+
+select{
+
+    text-align-last: center;
 
 }
