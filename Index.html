@@ -26,9 +26,10 @@
                 <form>
                     
                     <label for="firstNumber" class="o-style-Number">Número 1</label><br>
-                    <input type="text" id="fnumber" name="fnumber" class="o-container-type"><br>
+
+                    <input onchange="handleInput('fnumber')" type="text" id="fnumber" name="fnumber" class="o-container-type"><br>
                     <label for="secondNumber" class="o-style-Number">Número 2</label><br>
-                    <input type="text" id="snumber" name="snumber" class="o-container-type"><br><br>
+                    <input onchange="handleInput('snumber')" type="text" id="snumber" name="snumber" class="o-container-type"><br><br>
                 
                 </form>
 
@@ -44,7 +45,7 @@
 
                 <div id="MenuOperation" class="o-container-MenuOperation">
 
-                    <select id="ListOperation" class="o-selectOperation">
+                    <select id="ListOperation" class="o-selectOperation" onchange="HandleSelect()">
 
                      <option value="Sum">Suma</option>
                      <option value="Res">Resta</option>
@@ -75,7 +76,7 @@
 
             <div id="TextValor" class="o-container-textValor">
 
-                <h1 class="o-Number">29</h1>
+                <h1 id="NumberResult" class="o-Number"></h1>
 
             </div>
 
